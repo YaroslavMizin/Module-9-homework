@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+body * {
+    margin: auto;
+}
+
+input {
+    width: 200px;
+    margin-bottom: 20px;
+    height: 30px;
+    text-align: center;
+}
+
+.btn {
+    width: 207px;
+    background-color: blue;
+    color: white;
+    height: 30px;
+    border: 0px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.result {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+  }
+  
+.card {
+    width: 200px;
+    margin: 20px;
+  }
+  
+.card-image {
+    display: block;
+    width: 200px;
+    height: 150px;
+}

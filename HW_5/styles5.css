@@ -1,0 +1,51 @@
+.control {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    border: 1px solid gray;
+    background-color: bisque;
+}
+
+.control * {
+    margin: 10px;
+    color: #131313;
+}
+
+.result {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    margin: auto;
+  }
+  
+.card {
+    width: 200px;
+    margin: 20px;
+  }
+  
+.card-image {
+    display: block;
+    width: 200px;
+    height: 150px;
+}
+
+.error {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.btn {
+    padding: 5px;
+    text-transform: uppercase;
+    border: 0;
+}
+
+.btn:hover {
+    border: 1px solid red;
+}
+
+p {
+    text-align: center;
+    margin: 20px auto;
+}
